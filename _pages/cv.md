@@ -11,45 +11,66 @@ redirect_from:
 
 Education
 ======
-* B.M. in Piano Performance, Samford University, 2004
-* M.S. in Computer Science, Georgia Institute of Technology, 2018
+* High School (placeholder) — Expected Graduation 2028
+  * Engineering Honors (PLTW Track)
+  * Algebra II / Trigonometry
+  * CAD Projects using Onshape
+* Civil Air Patrol Ground & Flight School (Summer 2026 upcoming)
 
 Work experience
 ======
-* Summer 2021-Present: Research Assistant
-  * Georgia Institute of Technology, College of Computing
-  * DARPA Research - Guaranteeing AI Robustness Against Deception (GARD)
-  * Supervisor: Prof. Dueng Horng (Polo) Chau
+* 2022-Present: Civil Air Patrol Cadet Master Sergeant (C/MSgt)
+  * Supported logistics, including inventory management, uniform distribution, and resource organization  
+  * Staffed 3 airport events at KPAO: assisted with flight line, aircraft monitoring, and crowd coordination  
+  * Led small groups, delivered presentations on pilot training pathways, and taught aviation concepts  
 
-* 2018-Present: Lead Teaching Assistant
-  * Georgia Institute of Technology, College of Computing
-  * Course: CSE 6242 Data and Visual Analytics
-  * Supervisor: Prof. Dueng Horng (Polo) Chau
+* 2023-Present: RC Aircraft Builder & Operator
+  * Installed and configured aircraft electronics (motors, servos, control systems)  
+  * Independently troubleshot and repaired aircraft following crashes  
+  * Conducted test flights and performance adjustments, gaining practical understanding of flight behavior  
 
-* 2016-Present: Pilot /First Officer
-  * FedEx Express
-  * 757 / 767 aircraft
-  * Supervisor: Kevin Whearty
-
-* 2014-2016: Advanced Qualification Program Manager
-  * ExpressJet Airlines Flight Training
-  * Supervisor: Jim Barbour
-
-* 2006-2016: Ground / Simulator Instructor
-  * ExpressJet Airlines Flight Training
-  * Embraer 145 Aircraft
-  * Supervisor: Scot McBride
-
-* 2006-2016: Pilot/Captain
-  * ExpressJet Airlines
-  * Embraer 145 Aircraft
-  * Supervisor: Jim Campbell
+* 2022-Present: Flight Simulation & ATC Practice
+  * Regularly operate X-Plane 11 for procedural flight practice (airliners & general aviation)  
+  * Participate in VATSIM for live ATC practice using standard phraseology  
+  * Practice full flight operations: taxi, takeoff, cruise, and landing  
+  * Developing navigation, airspace, and weather familiarity
 
 Skills
 ======
-* Airline Transport Pilot
-  * EMB 145 Type Rating
-  * Boeing 737 Type Rating
+* Aviation Operations
+  * Flight procedures, ATC communication, navigation basics
+* Technical / Systems Skills
+  * RC aircraft electronics installation, troubleshooting, and repair
+* Simulation & Training
+  * X-Plane 11 flight simulation, procedural training
+* Personal / Cognitive Skills
+  * Visualization / spatial reasoning
+  * Adaptability in dynamic environments
+  * Problem-solving and troubleshooting
+  * Communication under pressure
+
+Publications
+======
+<ul>{% for post in site.publications %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+Talks
+======
+<ul>{% for post in site.talks %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}</ul>
+
+Teaching
+======
+<ul>{% for post in site.teaching %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+Service and leadership
+======
+* Civil Air Patrol: Cadet leadership and event logistics  
+* Speech & Debate (Congressional): Argumentation, quick decision-making, competitive tournaments  * Boeing 737 Type Rating
   * Boeing 757 / 767 Type Rating  
 * Certified Flight Instructor (CFI)
   * Single-Engine Land
