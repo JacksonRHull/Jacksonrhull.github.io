@@ -15,8 +15,7 @@ author_profile: false
 
 <div class="cv-intro">
 I am a High School student at Palo Alto High School! I have a big passion for aviation, and am in a select couple of extra curriculars matching my interests. I am a C/MSgt (Master Seargent) in the Civil Air Patrol, and am on the Paly Varsity Congressional Speech and Debate team.
-	
-	# I am a Ph.D. student in Machine Learning at Georgia Tech advised by Duen Horng (Polo) Chau. My research focuses on adversarial machine learning and simulation with differentiable rendering. I’ve also been a professional pilot for 20+ years and currently captain the Boeing 767 at FedEx.
+
 </div>
 
 <div class="cv-spacer"></div>
