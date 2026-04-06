@@ -1,10 +1,10 @@
-- institution: []
-  position: []
+- institution: ""
+  position: ""
   location: ""
-  year: [Month. YYYY] - Present
-  class: "[]"
-  instructor: []
+  year: June 2012
+  class: ""
+  instructor: ""
   description: ""
-  institution-url: []
-  class-url: []
-  ta: [true/false]
+  institution-url: ""
+  class-url: ""
+
