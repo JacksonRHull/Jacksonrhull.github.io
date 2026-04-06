@@ -8,15 +8,20 @@
   if (!canvas) return;
   if (siteCanvas && pageCanvas) { pageCanvas.style.display = 'none'; }
 
-  const palette = [
-    '#171c28', '#1d2433', '#2f3b54', '#6679a4', '#8695b7', '#a2aabc',
-    '#d7dce2', '#ffcc66', '#5ccfe6', '#bae67e', '#ffae57', '#ffd580',
-    '#c3a6ff', '#ef6b73'
+  // const palette = [
+  //   '#171c28', '#1d2433', '#2f3b54', '#6679a4', '#8695b7', '#a2aabc',
+  //   '#d7dce2', '#ffcc66', '#5ccfe6', '#bae67e', '#ffae57', '#ffd580',
+  //   '#c3a6ff', '#ef6b73'
+  // ];
+
+ const palette = [
+    '#011C26', "#012E40", "#023859", "#023859", "#3C7DA6", "#3C7DA6", "#7EB6D9", "#7EB6D9", "#ece0cc", "#ece0cc", "#ece0cc", "#ece0cc", "#ece0cc", "#ece0cc", "#ece0cc", "#ece0cc", "#ece0cc", "#ece0cc"
   ];
 
   const hexToRgb = (h) => { const n = h.replace('#', ''); const b = parseInt(n, 16); return { r: (b >> 16) & 255, g: (b >> 8) & 255, b: b & 255 }; };
   const luminance = (c) => { const { r, g, b } = hexToRgb(c); return 0.2126 * (r / 255) + 0.7152 * (g / 255) + 0.0722 * (b / 255); };
-  const sorted = palette.slice().sort((a, b) => luminance(a) - luminance(b));
+  // const sorted = palette.slice().sort((a, b) => luminance(a) - luminance(b));
+  const sorted = palette;
 
   const ctx = canvas.getContext('2d');
   canvas.style.width = '100%'; canvas.style.height = '100%';
@@ -56,7 +61,7 @@
     const cell = Math.max(6, Math.min(10, Math.floor(minDim / 180)));
     const radius = Math.floor(cell * 0.38);
     const cols = Math.ceil(viewW / cell) + 1; const rows = Math.ceil(viewH / cell) + 1;
-    const spots = [{ x: .22, y: .95, amp: 1.0, spread: .55 }, { x: .88, y: .10, amp: .8, spread: .6 }, { x: .70, y: .7, amp: .35, spread: .5 }];
+    const spots = [{ x: .22, y: .95, amp: 0.95, spread: .6 }, { x: .88, y: .10, amp: .9, spread: .4 }, { x: .70, y: .7, amp: .55, spread: .4 }];
     const spotsWorld = spots.map((s) => ({
       x: s.x * viewW,
       y: s.y * viewH,

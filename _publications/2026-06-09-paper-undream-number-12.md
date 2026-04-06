@@ -5,7 +5,7 @@ venue: "Filoli"
 venue-shorthand: FIL
 # location: 
 featured: true
-year: 2025
+year: 2026
 pdf: 
 paper-home: https://filoli.org/visit/?gad_source=1&gad_campaignid=21671679043&gbraid=0AAAAACh7IW3ZG1BfGkS__QDLgMIJxz-5Y&gclid=Cj0KCQjwkMjOBhC5ARIsADIdb3dw9gj6b_FUbjySb2d9pnhbvTs49ODIdzHpJwZ7TVYsNzajLSQwrrkaApo9EALw_wcB
 # github:
