@@ -6,7 +6,7 @@
   cv-group: 1
 
 - id: linkedin
-  description: "[Username]"
+  description: "Username"
   color: "#0a66c2"
   class: "fab fa-linkedin"
   url: ""
