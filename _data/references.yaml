@@ -3,6 +3,6 @@
   group:
   institution:
   location:
-  phd: [true/false]
+  phd: "true/false"
   website:
   url:
