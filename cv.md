@@ -9,12 +9,14 @@ author_profile: false
 
 <h1 id="cv-title"><a href="{{ site.url }}">Jackson Hull</a></h1>
 
-<p id="cv-subtitle"><i>High School Student (<span class="cv-vis">ML</span> + <span class="cv-ai">Simulation</span>)</i></p>
+<!-- <p id="cv-subtitle"><i>High School Student (<span class="cv-vis">ML</span> + <span class="cv-ai">Simulation</span>)</i></p> -->
+
+<p id="cv-subtitle" style="color: #ce9b00;"><i>High School Student</i></p>
 
 <div class="cv-spacer"></div>
 
 <div class="cv-intro">
-I am a High School student at Palo Alto High School! I have a big passion for aviation, and am in a select couple of extra curriculars matching my interests. I am a C/MSgt (Master Seargent) in the Civil Air Patrol, and am on the Paly Varsity Congressional Speech and Debate team.
+I am a High School student at Palo Alto High School! I have a big passion for aviation, and am in a select couple of extra curriculars matching my interests. I am a C/MSgt (Master Seargent) in the Civil Air Patrol, and am on the Paly Varsity Congressional Speech and Debate team. I also enjoy playing music and actively participate in three bands at my high school.
 
 </div>
 
@@ -39,7 +41,7 @@ I am a High School student at Palo Alto High School! I have a big passion for av
 
 ***
 
-## Education
+<h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Education</h2>
 
 {% for degree in site.data.education %}
 <div class="cv-spacer-small"></div>
@@ -54,23 +56,31 @@ I am a High School student at Palo Alto High School! I have a big passion for av
 </div>
 {% endfor %}
 
-## Academic Research Experience
+<h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Experiences</h2>
 
 {% for experience in site.data.experiences %}
-{% if experience.type == 'academic' %}
+{% if experience.type == 'experience' %}
 <div class="cv-spacer-small"></div>
 <div class="cv-row">
-  <div class="cv-left-date">{{ experience.year }}</div>
+  <div class="cv-left-date">{{ experience.years }}</div>
   <div>
-    <b>{% if experience.institution-url %}<a href="{{ experience.institution-url }}">{{ experience.institution }}</a>{% else %}{{ experience.institution }}{% endif %}</b>, {{ experience.location }}<br/>
+    <b>{{ experience.institution }}</b>, 
+    {% if experience.location-url %}
+      <a href="{{ experience.location-url }}">{{ experience.location }}</a>
+    {% else %}
+      {{ experience.location }}
+    {% endif %}
+    <br/>
     <i>{{ experience.position }}</i>
-    {% if experience.description %}<div class="cv-description">{{ experience.description }}</div>{% endif %}
+    {% if experience.description %}
+      <div class="cv-description">{{ experience.description }}</div>
+    {% endif %}
   </div>
 </div>
 {% endif %}
 {% endfor %}
 
-## Industry Experience
+<!-- ## Industry Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
@@ -84,10 +94,10 @@ I am a High School student at Palo Alto High School! I have a big passion for av
   </div>
 </div>
 {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 
-## Honors and Awards
+<!-- ## Honors and Awards
 
 {% for award in site.data.awards %}
 <div class="cv-spacer-small"></div>
@@ -98,7 +108,7 @@ I am a High School student at Palo Alto High School! I have a big passion for av
     {% if award.description %}<div class="cv-description">{{ award.description }}</div>{% endif %}
   </div>
 </div>
-{% endfor %}
+{% endfor %} -->
 
 ## Publications
 

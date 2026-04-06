@@ -1,0 +1,27 @@
+---
+title: "Performance: 47th Annual Jaz Concert"
+authors: "The Campanile"
+venue: "Henry M Gunn High School"
+venue-shorthand: Gunn
+# location: 
+featured: false
+year: 2024
+pdf: 
+paper-home: https://thecampanile.org/31275/news/high-schools-hold-47th-annual-jazz-concert/
+# icon: image.png
+# icon-fit: cover
+# brand: 3DGS Vulnerabilities
+# poster: 
+collaboration: TII
+excerpt: "reference excerpt for link on page"
+pub-type: "conference"
+bibtex: |-
+  @inproceedings{campanile2024annualjazz,
+    title={Performance: 47th Annual Jaz Concert},
+    author={The Campanile},
+    booktitle = {The Campanile},
+    year={2024},
+    url={https://thecampanile.org/31275/news/high-schools-hold-47th-annual-jazz-concert/}
+  }
+---
+Lorem ipsum lorem ispum

@@ -1,8 +1,8 @@
 - degree: "High School Diploma (2028)"
-  institution: Palo Alto High School
+  institution: <u>Palo Alto High School</u>
   location: "Palo Alto, California"
-  years: "Aug. 2024 — June 2028"
-  institution-url: Paly.net
+  years: "<i>In June of 2028</i>"
+  institution-url: https://paly.net
   # description:
   #   - "Class of 2028"
   #   - "Optional GPA or honors placeholder"

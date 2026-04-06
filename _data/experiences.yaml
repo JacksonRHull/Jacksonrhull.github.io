@@ -1,13 +1,42 @@
 - institution: "Civil Air Patrol (U.S. Air Force Auxiliary)"
-  location: "Palo Alto Airport [KPAO]"
+  location: "<u>Squadron 10 - Palo Alto Airport [KPAO]</u>"
   position: "Cadet Master Sergeant (C/MSgt)"
-  years: "2022 — Present"
-  description: "Supported logistics, staffed airport events at KPAO, led small teams, delivered presentations on aviation careers, and participated in orientation flights."
+  years: "March 2022 — Present"
+  location-url: https://jonekramer.cap.gov
+  description: |
+    <ul>
+      <li>Served as Aerospace Sergeant, developing and leading engaging STEM-focused activities and presentations</li>
+      <li>Staffed Airport Day at KPAO for three consecutive years, educating the public on aircraft systems and core aviation concepts</li>
+      <li>Led and supervised cadet groups, maintaining safety, discipline, and effective coordination during activities</li>
+      <li>Delivered presentations on the pathway to becoming a pilot, outlining training requirements and career progression</li>
+      <li>Participated in orientation flights (O-rides) and ongoing aviation training to expand practical flight knowledge</li>
+      <li>Will attend CAP Powered Flight Academy this summer</li>
+    </ul>
   type: "experience"
   
-- institution: "Speech & Debate – Congressional Debate"
+- institution: "Palo Alto High School Bands"
+  location: "Palo Alto High School"
+  position: "Alto Saxophonist"
+  years: "August 2022 — Present"
+  description: |
+    <ul>
+      <li>Began musical training in sixth grade, progressively advancing through school ensembles to current participation in high school Concert, Symphonic, and Jazz bands</li>
+      <li>Collaborate closely with peers to achieve cohesive, high-quality performances during concerts, competitions, and festivals</li>
+      <li>Develop teamwork and section leadership skills, guiding fellow woodwind players and fostering group cohesion</li>
+      <li>Adapt to multiple musical styles and complex arrangements, enhancing technical proficiency and expressive performance</li>
+    </ul>
+  type: "experience"
+
+- institution: "Speech & Debate - Congressional Debate"
   location: "Palo Alto High School"
   position: "Team Member"
-  years: "2025 — Present"
-  description: "Develop argumentation skills, analyze multiple perspectives, deliver structured rebuttals, and practice quick thinking and clear communication under pressure."
+  years: "August 2025 — Present"
+  description: |
+    <ul>
+      <li>Delivered structured, persuasive speeches during weekly practices and competitive tournaments, consistently engaging in cross-examination and rebuttal</li>
+      <li>Prepared and analyzed legislation through independent research, developing well-supported arguments for both affirmative and negative positions</li>
+      <li>Collaborated with peers to evaluate and refine debate strategies, contributing to balanced and comprehensive discussion of proposed bills</li>
+      <li>Participated in multiple tournaments, demonstrating adaptability and composure while speaking under time constraints and competitive pressure</li>
+      <li>Strengthened public speaking, critical thinking, and real-time argumentation skills in a fast-paced, formal debate environment</li>
+    </ul>
   type: "experience"
