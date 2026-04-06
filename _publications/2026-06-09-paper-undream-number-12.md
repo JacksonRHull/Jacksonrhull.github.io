@@ -1,36 +1,28 @@
 ---
-title: "UnDREAM: Bridging Differentiable Rendering and Photorealistic Simulation for End-to-end Adversarial Attacks"
-authors: "Mansi Phute, Matthew Hull, Haoran Wang, Alec Helbling, ShengYun Peng, Willian Lunardi, Martin Andreoni, Wenke Lee, and Polo Chau"
-venue: "arXiv"
-venue-shorthand: arXiv
+title: "Example Project Title"
+authors: "Jackson Hull"
+venue: "Filoli"
+venue-shorthand: FIL
 # location: 
-featured: false
-year: 2026
-pdf: https://arxiv.org/pdf/2510.16923
-paper-home: https://arxiv.org/pdf/2510.16923
+featured: true
+year: 2025
+pdf: 
+paper-home: https://filoli.org/visit/?gad_source=1&gad_campaignid=21671679043&gbraid=0AAAAACh7IW3ZG1BfGkS__QDLgMIJxz-5Y&gclid=Cj0KCQjwkMjOBhC5ARIsADIdb3dw9gj6b_FUbjySb2d9pnhbvTs49ODIdzHpJwZ7TVYsNzajLSQwrrkaApo9EALw_wcB
 # github:
-# icon: 3dgs-vulnerabilities.png
+# icon: image.png
 # icon-fit: cover
 # brand: 3DGS Vulnerabilities
 # poster: 
 collaboration: TII
-excerpt: "Bridging differentiable rendering and photorealistic simulation for end-to-end adversarial attacks."
+excerpt: "reference excerpt for link on page"
 pub-type: "conference"
 bibtex: |-
   @inproceedings{phute2025undream,
-    title={UnDREAM: Bridging Differentiable Rendering and Photorealistic Simulation for End-to-end Adversarial Attacks},
-    author={Mansi Phute and Matthew Hull and Haoran Wang and Alec Helbling and ShengYun Peng and Willian Lunardi and Martin Andreoni and Wenke Lee and Polo Chau},
-    booktitle = {Advances in Knowledge Discovery and Data Mining: 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining, PAKDD 2026},
-    year={2026},
-    url={https://arxiv.org/pdf/2510.16923}
+    title={Example: Project title},
+    author={Jackson Hull},
+    booktitle = {Book title??},
+    year={2025},
+    url={[https://arxiv.org/pdf/2510.16923](https://filoli.org/visit/?gad_source=1&gad_campaignid=21671679043&gbraid=0AAAAACh7IW3ZG1BfGkS__QDLgMIJxz-5Y&gclid=Cj0KCQjwkMjOBhC5ARIsADIdb3dw9gj6b_FUbjySb2d9pnhbvTs49ODIdzHpJwZ7TVYsNzajLSQwrrkaApo9EALw_wcB)}
   }
 ---
-Abstract: Deep learning models deployed in safety critical applications like autonomous driving use simulations to test their robustness against adversarial attacks in realistic conditions. However, these simulations are non-differentiable, forcing researchers to create attacks that do not integrate simulation environmental factors, reducing attack success.
-
-To address this limitation, we introduce UnDREAM, the first software framework that bridges the gap between photorealistic simulators and differentiable renderers to enable end-to-end optimization of adversarial perturbations on any 3D objects.
-
-UnDREAM enables manipulation of the environment by offering complete control over weather, lighting, backgrounds, camera angles, trajectories, and realistic human and object movements, thereby allowing the creation of diverse scenes.
-
-We showcase a wide array of distinct physically plausible adversarial objects that UnDREAM enables researchers to swiftly explore in different configurable environments.
-
-This combination of photorealistic simulation and differentiable optimization opens new avenues for advancing research of physical adversarial attacks.
+Lorem ipsum lorem ispum
