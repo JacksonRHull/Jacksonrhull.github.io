@@ -70,12 +70,6 @@ Teaching
 Service and leadership
 ======
 * Civil Air Patrol: Cadet leadership and event logistics  
-* Speech & Debate (Congressional): Argumentation, quick decision-making, competitive tournaments  * Boeing 737 Type Rating
-  * Boeing 757 / 767 Type Rating  
-* Certified Flight Instructor (CFI)
-  * Single-Engine Land
-  * Multi-Engine Land
-  * Instrument Airplane
 
 Publications
 ======
