@@ -1,8 +1,11 @@
 {%- comment -%}
-  Featured Publications: Only include items explicitly marked featured.
-  If `pub.featured` is missing or false, ignore it. Sort newest first.
+  Featured Works: include BOTH publications + projects
+  Only items explicitly marked featured. Sort newest first.
 {%- endcomment -%}
-{% assign featured_publications = site.publications
+
+{% assign all_items = site.publications | concat: site.projects %}
+
+{% assign featured_items = all_items
    | where_exp: 'p', 'p.featured == true'
    | sort: 'date'
    | reverse %}
@@ -10,7 +13,7 @@
 <section class="hm-section hm-projects">
   <h2 class="hm-heading">Featured Works</h2>
   <div class="hm-grid">
-    {% for pub in featured_publications %}
+    {% for pub in featured_items %}
       <div class="hm-tile">
         <a class="hm-tile__headerlink" href="{{ pub.url | relative_url }}">
             <div class="hm-tile__header">{{ pub.shorttitle | default: pub.title }}</div>
