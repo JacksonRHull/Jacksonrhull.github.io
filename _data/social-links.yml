@@ -5,12 +5,12 @@
   url: "https://github.com/jacksonrhull"
   cv-group: 1
 
-- id: linkedin
-  description: "Username"
-  color: "#0a66c2"
-  class: "fab fa-linkedin"
-  url: ""
-  cv-group: 2
+# - id: linkedin
+#   description: ""
+#   color: "#0a66c2"
+#   class: "fab fa-linkedin"
+#   url: ""
+#   cv-group: 2
 
 - id: cv
   description: "CV PDF"

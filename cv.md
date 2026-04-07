@@ -11,12 +11,12 @@ author_profile: false
 
 <!-- <p id="cv-subtitle"><i>High School Student (<span class="cv-vis">ML</span> + <span class="cv-ai">Simulation</span>)</i></p> -->
 
-<p id="cv-subtitle" style="color: #ce9b00;"><i>High School Student</i></p>
+<p id="cv-subtitle" style="color: #222222;"><i>High School Student</i></p>
 
 <div class="cv-spacer"></div>
 
 <div class="cv-intro">
-I am a High School student at Palo Alto High School! I have a big passion for aviation, and am in a select couple of extra curriculars matching my interests. I am a C/MSgt (Master Seargent) in the Civil Air Patrol, and am on the Paly Varsity Congressional Speech and Debate team. I also enjoy playing music and actively participate in three bands at my high school.
+I am a sophomore at Palo Alto High School! I have a big passion for aviation, and am in a select couple of extra curriculars matching my interests. I am a C/MSgt (Master Seargent) in the Civil Air Patrol, and am on the Paly Varsity Congressional Speech and Debate team. I also enjoy playing music and actively participate in three bands at my high school.
 
 </div>
 
@@ -96,6 +96,38 @@ I am a High School student at Palo Alto High School! I have a big passion for av
 {% endif %}
 {% endfor %} -->
 
+<h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Skills</h2>
+
+{% for experience in site.data.skills %}
+{% if experience.type == 'skills' %}
+<div class="cv-spacer-small"></div>
+
+<div class="cv-row">
+  <div class="cv-left-date">{{ experience.years }}</div>
+  <div>
+    <b>{{ experience.institution }}</b>
+    {% if experience.location %}
+    , 
+      {% if experience.location-url %}
+        <a href="{{ experience.location-url }}">{{ experience.location }}</a>
+      {% else %}
+        {{ experience.location }}
+      {% endif %}
+    {% endif %}
+
+  <br/>
+   {% if experience.position %}
+      <i>{{ experience.position }}</i>
+    {% endif %}
+
+    {% if experience.description %}
+      <div class="cv-description">{{ experience.description }}</div>
+    {% endif %}
+  </div>
+</div>
+
+{% endif %}
+{% endfor %}
 
 <!-- ## Honors and Awards
 
@@ -110,7 +142,7 @@ I am a High School student at Palo Alto High School! I have a big passion for av
 </div>
 {% endfor %} -->
 
-## Publications
+<h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Publications</h2>
 
 {% assign pubs_all = site.publications | sort: 'date' | reverse %}
 
@@ -170,16 +202,16 @@ I am a High School student at Palo Alto High School! I have a big passion for av
 {% endfor %}
 {% endif %}
 
-## Talks
+<!-- ## Talks
 
 {::nomarkdown}
 {% assign talktitles = site.data.talks | group_by:"title" %}
 {% for title in talktitles %}
 {% include cv/talk.html talk=title %}
 {% endfor %}
-{:/}
+{:/} -->
 
-## Teaching
+<!-- ## Teaching
 
 {% for teach in site.data.teaching %}
 <div class="cv-spacer-small"></div>
@@ -191,7 +223,7 @@ I am a High School student at Palo Alto High School! I have a big passion for av
     {% if teach.description %}<div class="cv-description">{{ teach.description }}</div>{% endif %}
   </div>
 </div>
-{% endfor %}
+{% endfor %} -->
 
 <!-- ## Mentoring
 
@@ -221,7 +253,7 @@ I am a High School student at Palo Alto High School! I have a big passion for av
 </div>
 {% endfor %} -->
 
-## Service
+<!-- ## Service
 
 <div class="cv-service-title"><b>Reviewer</b></div>
 {% for venue in site.data.reviewer %}
@@ -233,19 +265,19 @@ I am a High School student at Palo Alto High School! I have a big passion for av
 {% include cv/institutional.html institution=institution %}
 {% endfor %} -->
 
-<div class="cv-service-title"><b>Member</b></div>
+<!-- <div class="cv-service-title"><b>Member</b></div>
 {% for member in site.data.memberships %}
 {% include cv/member.html member=member %}
-{% endfor %}
+{% endfor %}  -->
 
-## Certifications
+<!-- ## Certifications
 
-{% include cv/certifications.html %}
+{% include cv/certifications.html %} -->
 
-## References
+<!-- ## References
 
 {% for reference in site.data.references %}
 {% include cv/reference.html reference=reference %}
-{% endfor %}
+{% endfor %} -->
 
 </div>

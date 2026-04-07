@@ -1,7 +1,6 @@
 ---
-title: "Example"
-excerpt: "Exerpt words ![demo image](/images/image.png)"
+title: "Coming Soon!!"
+excerpt: "I'm in the process of uploading and enabling projects on here."
 collection: projects
 ---
-
-This project can be viewed [here.](/chess)
+I'm in the process of uploading and enabling projects on here.

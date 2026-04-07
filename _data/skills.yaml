@@ -1,3 +1,10 @@
-- name: 3D Modeling
-  items:
-    - OnShape
+- institution: "Soft skills"
+  location: ""
+  position: ""
+  years: ""
+  description: |
+    <ul>
+      <li><b>Cognitive:</b> Strong spatial reasoning and visualization, adaptability in dynamic environments, systems thinking</li>
+      <li><b>Communication:</b> Public speaking, structured argumentation, and performance under pressure</li>
+    </ul>
+  type: "skills"
