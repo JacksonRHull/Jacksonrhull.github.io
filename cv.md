@@ -96,6 +96,19 @@ I am a sophomore at Palo Alto High School! I have a big passion for aviation, an
 {% endif %}
 {% endfor %} -->
 
+<h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Service</h2>
+
+{% for service in site.data.service %}
+<div class="cv-spacer-small"></div>
+<div class="cv-row">
+  <div class="cv-left-date">{{ service.year }}</div>
+  <div>
+    <span class="cv-award">{{ service.name }}</span>
+    {% if service.description %}<div class="cv-description">{{ service.description }}</div>{% endif %}
+  </div>
+</div>
+{% endfor %}
+
 <h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Skills</h2>
 
 {% for experience in site.data.skills %}
@@ -129,20 +142,7 @@ I am a sophomore at Palo Alto High School! I have a big passion for aviation, an
 {% endif %}
 {% endfor %}
 
-<!-- ## Honors and Awards
-
-{% for award in site.data.awards %}
-<div class="cv-spacer-small"></div>
-<div class="cv-row">
-  <div class="cv-left-date">{{ award.year }}</div>
-  <div>
-    <span class="cv-award">{{ award.name }}</span>
-    {% if award.description %}<div class="cv-description">{{ award.description }}</div>{% endif %}
-  </div>
-</div>
-{% endfor %} -->
-
-<h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Publications</h2>
+<h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Press</h2>
 
 {% assign pubs_all = site.publications | sort: 'date' | reverse %}
 

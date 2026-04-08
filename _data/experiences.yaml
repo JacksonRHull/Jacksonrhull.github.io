@@ -5,25 +5,10 @@
   location-url: https://jonekramer.cap.gov
   description: |
     <ul>
-      <li>Served as Aerospace Sergeant, developing and leading engaging STEM-focused activities and presentations</li>
-      <li>Staffed Airport Day at KPAO for three consecutive years, assisting with flight line operations, aircraft monitoring, and crowd coordination in an active airport environment</li>
-      <li>Led and supervised cadet groups in dynamic environments, maintaining safety, discipline, and effective coordination</li>
-      <li>Delivered presentations on the pathway to becoming a pilot, outlining training requirements and career progression</li>
-      <li>Participated in orientation flights (O-rides) and ongoing aviation training to expand practical flight knowledge</li>
-      <li>Will attend CAP Powered Flight Academy this summer</li>
-    </ul>
-  type: "experience"
-  
-- institution: "Palo Alto High School Bands"
-  location: "Palo Alto High School"
-  position: "Alto Saxophonist"
-  years: "August 2022 — Present"
-  description: |
-    <ul>
-      <li>Began musical training in sixth grade, progressively advancing through school ensembles to current participation in high school Concert, Symphonic, and Jazz bands</li>
-      <li>Collaborate closely with peers to achieve cohesive, high-quality performances during concerts, competitions, and festivals</li>
-      <li>Develop teamwork and section leadership skills, guiding fellow woodwind players and fostering group cohesion</li>
-      <li>Adapt to multiple musical styles and complex arrangements, enhancing technical proficiency and expressive performance</li>
+      <li>Served as Aerospace Sergeant in local Civil Air Patrol squadron meetings, giving presentations relating to career path options in aviation, or leading STEM activities for ~50 cadets.</li>
+      <li>Assisted with practice search and rescue exercises in the Baylands, supporting team coordination and field operations</li>
+      <li>Taught drill basics to groups of cadets during squadron meetings, helping improve consistency and confidence in their performance</li>
+      <li>Will attend CAP Powered Flight Academy this summer, a great opportunity to get to my first solo flight, with ~40 hrs of ground time, and ~10 hrs of flight time</li>
     </ul>
   type: "experience"
 
@@ -33,10 +18,18 @@
   years: "August 2025 — Present"
   description: |
     <ul>
-      <li>Delivered structured, persuasive speeches during weekly practices and competitive tournaments, consistently engaging in cross-examination and rebuttal</li>
-      <li>Prepared and analyzed legislation through independent research, developing well-supported arguments for both affirmative and negative positions</li>
-      <li>Collaborated with peers to evaluate and refine debate strategies, contributing to balanced and comprehensive discussion of proposed bills</li>
-      <li>Participated in multiple tournaments, demonstrating adaptability and composure while speaking under time constraints and competitive pressure</li>
-      <li>Strengthened public speaking, critical thinking, and real-time argumentation skills in a fast-paced, formal debate environment</li>
+      <li>Competed in weekly practices and tournaments, delivering structured speeches, engaging in cross-examination, and adapting arguments under time pressure</li>
+      <li>Researched and analyzed legislation to build and defend positions on both sides, refining debate strategy through collaboration with peers</li>
+    </ul>
+  type: "experience"
+
+- institution: "Palo Alto High School Bands"
+  location: "Palo Alto High School"
+  position: "Alto Saxophonist"
+  years: "August 2022 — Present"
+  description: |
+    <ul>
+      <li>Began musical training in sixth grade, progressively advancing through school ensembles to current participation in high school Concert, Symphonic, and Jazz bands</li>
+      <li>Adapt to multiple musical styles and complex arrangements, enhancing technical proficiency and expressive performance</li>
     </ul>
   type: "experience"

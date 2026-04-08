@@ -1,7 +1,7 @@
-- institution: "Soft skills"
-  location: ""
-  position: ""
-  years: ""
+- institution:
+  location:
+  position:
+  years:
   description: |
     <ul>
       <li><b>Cognitive:</b> Strong spatial reasoning and visualization, adaptability in dynamic environments, systems thinking</li>
