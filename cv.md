@@ -142,7 +142,7 @@ I am a sophomore at Palo Alto High School! I have a big passion for aviation, an
 {% endif %}
 {% endfor %}
 
-<h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Press</h2>
+<!-- <h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Press</h2>
 
 {% assign pubs_all = site.publications | sort: 'date' | reverse %}
 
@@ -200,7 +200,7 @@ I am a sophomore at Palo Alto High School! I have a big passion for aviation, an
   {% include cv/publication.html pub=pub label='P' idx=forloop.index %}
 </div>
 {% endfor %}
-{% endif %}
+{% endif %} -->
 
 <!-- ## Talks
 
