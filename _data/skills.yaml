@@ -1,10 +1,16 @@
-- institution:
-  location:
-  position:
-  years:
-  description: |
-    <ul>
-      <li><b>Cognitive:</b> Strong spatial reasoning and visualization, adaptability in dynamic environments, systems thinking</li>
-      <li><b>Communication:</b> Public speaking, structured argumentation, and performance under pressure</li>
-    </ul>
-  type: "skills"
+
+- name: Cognitive
+  items:
+    - Strong spatial reasoning and visualization
+    - Adaptability in dynamic environments
+    - Systems thinking
+
+- name: Communication
+  items:
+    - Public speaking
+    - Structured argumentation
+    - Performance under pressure
+
+- name: Software
+  items:
+    - onshape (CAD)

@@ -111,35 +111,14 @@ I am a sophomore at Palo Alto High School! I have a big passion for aviation, an
 
 <h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Skills</h2>
 
-{% for experience in site.data.skills %}
-{% if experience.type == 'skills' %}
+{% for skill in site.data.skills %}
 <div class="cv-spacer-small"></div>
-
 <div class="cv-row">
-  <div class="cv-left-date">{{ experience.years }}</div>
+  <div class="cv-left-date">{{ skill.name }}</div>
   <div>
-    <b>{{ experience.institution }}</b>
-    {% if experience.location %}
-    , 
-      {% if experience.location-url %}
-        <a href="{{ experience.location-url }}">{{ experience.location }}</a>
-      {% else %}
-        {{ experience.location }}
-      {% endif %}
-    {% endif %}
-
-  <br/>
-   {% if experience.position %}
-      <i>{{ experience.position }}</i>
-    {% endif %}
-
-    {% if experience.description %}
-      <div class="cv-description">{{ experience.description }}</div>
-    {% endif %}
+    {{ skill.items | join: ", " }}
   </div>
 </div>
-
-{% endif %}
 {% endfor %}
 
 <!-- <h2 style="color: #ce9b00; font-weight: bold; font-size: 2.0em;">Press</h2>
