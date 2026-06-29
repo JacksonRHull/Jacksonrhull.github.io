@@ -23,7 +23,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -35,9 +35,9 @@ jobs:
         run: bundle exec jekyll build
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
 
       - name: Install PDF deps
@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add files/MatthewHull-CV.pdf || true
+          git add files/JacksonRHull-CV.pdf || true
           if ! git diff --cached --quiet; then
             git commit -m "chore: update generated CV PDF"
             git push
