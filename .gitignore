@@ -4,3 +4,4 @@ Gemfile.lock
 node_modules/
 node/
 *.pdf
+!files/JacksonRHull-CV.pdf
