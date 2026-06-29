@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 
 const SITE_DIR = path.resolve('_site');
-const OUTPUT = path.resolve('files/MatthewHull-CV.pdf');
+const OUTPUT = path.resolve('files/JacksonRHull-CV.pdf');
 const PORT = process.env.CV_PDF_PORT || 4100;
 
 async function serve(dir, port) {
