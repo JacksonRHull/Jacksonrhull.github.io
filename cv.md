@@ -16,7 +16,7 @@ author_profile: false
 <div class="cv-spacer"></div>
 
 <div class="cv-intro">
-I am a sophomore at Palo Alto High School! I have a big passion for aviation, and am in a select couple of extra curriculars matching my interests. I am a C/MSgt (Master Seargent) in the Civil Air Patrol, and am on the Paly Varsity Congressional Speech and Debate team. I also enjoy playing music and actively participate in three bands at my high school.
+I am a junior at Palo Alto High School! I have a big passion for aviation, and am in a select couple of extra curriculars matching my interests. I am a C/SMSgt (Senior Master Seargent) in the Civil Air Patrol, and am on the Paly Varsity Congressional Speech and Debate team. I also enjoy playing music and actively participate in three bands at my high school.
 
 </div>
 
